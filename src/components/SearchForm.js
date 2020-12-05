@@ -39,7 +39,7 @@ class SearchForm extends Component {
                         onChange={(event, newValue) => {
                             this.selectedCountry = newValue.name;
                           }}
-                        style={{ width: 500 , marginLeft: "auto", marginRight: "auto"}}
+                        style={{ width: "70%", marginLeft: "auto", marginRight: "auto"}}
                         renderInput={(params) => <TextField {...params} label=" Choose the country" required margin="normal" />}
                     />
                 </Box>
@@ -64,7 +64,7 @@ class SearchForm extends Component {
                             {option}
                             </React.Fragment>
                         )}
-                        style={{ width: 500 , marginLeft: "auto", marginRight: "auto"}}
+                        style={{ width: "70%", marginLeft: "auto", marginRight: "auto"}}
                         renderInput={(params) => (
                             <TextField {...params} variant="standard" required label="What do you want to know?"  />
                         )}
